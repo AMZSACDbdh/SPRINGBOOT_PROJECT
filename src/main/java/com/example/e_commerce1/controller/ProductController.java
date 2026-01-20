@@ -13,6 +13,7 @@ public class ProductController {
 
     private final ProductService productService;
 
+    // Added to track product operations
     public ProductController(ProductService productService) {
         this.productService = productService;
     }

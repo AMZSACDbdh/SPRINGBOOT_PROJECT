@@ -12,6 +12,7 @@ public class Product {
     private String description;
     private double price;
     private int stock;
+    private String category; // Added category field
 
     public Product() {}
 
