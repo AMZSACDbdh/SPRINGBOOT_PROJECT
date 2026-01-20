@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ecommerce1
+
+  mongodb:
+    uri: mongodb://localhost:27017/ecommerce_db
+    database: ecommerce_db
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+
+razorpay:
+  key:
+    id: rzp_test_S5iMxGhIunvAOD
+    secret: Hc3au6NzH0InSgbibWH4Y1SI
+  webhook:
+    secret: webhook_secret_xyz
+
